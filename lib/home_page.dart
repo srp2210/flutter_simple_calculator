@@ -13,6 +13,7 @@ class HomePageState extends State<HomePage> {
 
   final TextEditingController t1 = TextEditingController(text: "0");
   final TextEditingController t2 = TextEditingController(text: "0");
+  final TextEditingController t2 = TextEditingController(text: "0");
 
   void doAddition() {
     setState(() {
